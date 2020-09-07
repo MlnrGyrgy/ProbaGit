@@ -10,9 +10,11 @@ namespace ProbaGit
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
             for (int a = 0; a < 10; a++)
             {
-                Console.WriteLine("Yes");
+                Console.Write("Yes, ");
+                
             }
             Console.ReadKey();
         }
